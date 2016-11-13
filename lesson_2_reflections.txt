@@ -8,4 +8,8 @@ Staging area can be thought of an intermediate stage between the working directo
 
 Staging area allows to commit all relevant files together in a single commit. As a result, if a commit is checked out then all the files will be restored at the stage of that commit. If there was no staging area then all files will need to be commited separtely even if they are relevant to each other. It will then be more harder to track changes and restoring to an old commit. 
 
+ How can you use the staging area to make sure you have one commit per logical change?
+
+ I can add all the files in the staging area that are relevant to a particular change e.g. a function in one file and the call to the function in another file. Then I can commit those files in a single commit to the repository. In this way, staging area can be used to ensure that there is one commit per logical change. 
+
  
