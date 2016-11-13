@@ -18,4 +18,6 @@ Staging area allows to commit all relevant files together in a single commit. As
 
  Branches can also be used for separating different versions of an application. For example, an app that is targeted to french and italian users can have two different versions, one in french another in italian which can be separated using branch. 
 
-   
+ How do the diagrams help you visualize the branch structure?
+
+The diagram shows the master and the commits associated with the masters in a linear order (most recent first). Any branches that were created is shown as a branch connected to the master. Similarly, the branch shows all the commits associated with the branch in a linear order (most recent first). As a result, commits are related to masters and commits that are related to specific branches can easily be distinguished. 
