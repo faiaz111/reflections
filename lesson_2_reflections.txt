@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialise a repository a ".git" file is created in that repository which is hidden by default and can be viewed using "ls -a" command from the terminal. This is done to enable git features such as version control on that repository. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area can be thought of an intermediate stage between the working directory and the repository. Working directory can contain lot of files some of which may be relevant to each other while some might not be relevant to any other files. All relevent files can be bought in the staging area. Then those relevant files in the staging area can be committed as a single commit in the repository. Files that doesn't relate to each other can be bring (one at a time) separately in staging area from working directory and can be commited in the repository. 
+
+Staging area allows to commit all relevant files together in a single commit. As a result, if a commit is checked out then all the files will be restored at the stage of that commit. If there was no staging area then all files will need to be commited separtely even if they are relevant to each other. It will then be more harder to track changes and restoring to an old commit. 
+
+ 
