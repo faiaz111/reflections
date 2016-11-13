@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using diff, two files can be compared for differences. By comparing the two files named 'game_old.js' and 
+'game_new.js' using diff in terminal, it showed me the differences between the two files through the
+use of '-' and '+' sign. '-' means lines that were deleted in the new file and '+' means lines that
+were added in the new file. I was able to see the bug (typo) in the new file by comparing the files 
+using the method mentioned above. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+If there is entire history of different versions of a file then when there is an error or problem with a new update it can be compared with or restored to old version. In this way, errors can be easily located in new updates or if needed can be restored to a old working version. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual Commit
+Pros
+Allow for an appropriate time to commit i.e. when there is a fair amount of changes which is not too big or 
+not too small. 
+Cons
+Users might forget to commit
+
+Auto save
+Pros
+Saves changes periodically as specified and as a result everything is saved.
+Cons
+Can save files when there was actually no changes made at all (Periodic save e.g. every hour). Too many
+commits. Becomes hard to follow. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is build with code in mind. In a project such as a mobile app or game, there can be lot of files associated with the game or the app. Sometimes there can be changes made to multiple files together or changes to a function
+that exists in multiple files. To make the function work all the changes for the function (e.g. the function itself and the call to the function) in all files needs to be saved. 
+
+Google docs is not build for code. It is build for saving rich text files and thus includes a simple revision history which tracks all the changes made to a particular text file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log can be used to list all the commits in a repository. It will show the id of each commit along with the revision date and the message for the commit. Git log shows the most recent commit first. 
+
+Once we have the commit ids from git log we can use git diff to compare the changes between two commits. 
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control will allow me to save different stages of the code throughout the development period. As a result, if something doesn't work in any stage I can restore to an older working stage. Also I can check the difference between the working and non-working code to see how the bug was introduced. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for my projects to save different stages and versions of my project. This will allow me to confidently make big or small changes to my project. I can try out different ideas and concepts without worrying about things breaking down. 
+
+
+
+
+ 
+
+
+
