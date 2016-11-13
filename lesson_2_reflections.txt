@@ -12,4 +12,10 @@ Staging area allows to commit all relevant files together in a single commit. As
 
  I can add all the files in the staging area that are relevant to a particular change e.g. a function in one file and the call to the function in another file. Then I can commit those files in a single commit to the repository. In this way, staging area can be used to ensure that there is one commit per logical change. 
 
- 
+ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ Branches can be used to test out experimental features which are not finalised to be used yet without affecting the working version of the project. If the experimental features doesn't end up successful then the master branch can be used for restoring the working version. 
+
+ Branches can also be used for separating different versions of an application. For example, an app that is targeted to french and italian users can have two different versions, one in french another in italian which can be separated using branch. 
+
+   
