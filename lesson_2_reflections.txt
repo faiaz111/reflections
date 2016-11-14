@@ -21,3 +21,18 @@ Staging area allows to commit all relevant files together in a single commit. As
  How do the diagrams help you visualize the branch structure?
 
 The diagram shows the master and the commits associated with the masters in a linear order (most recent first). Any branches that were created is shown as a branch connected to the master. Similarly, the branch shows all the commits associated with the branch in a linear order (most recent first). As a result, commits are related to masters and commits that are related to specific branches can easily be distinguished. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging combines two different versions of a file into one file. For example, two people is working on the same version of a file separately and are making changes to them independent of each other. If we consider each person's work as a branch then there is two branch. This two branch can be merged together to create a single file containing the changes made by both of them. When deciding which change will be included in the final file and which one won't, git compares the two versions of the file with the original file. 
+
+Branches are represent using a diagram to make it easy for humans to understand. The diagram can show the master and the commits associated with the master. Also it will show the branch coming out of the master and the commits associated with the branch.  
+
+
+
+
+
+
+
+
+
