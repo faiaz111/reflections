@@ -26,7 +26,21 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Merging combines two different versions of a file into one file. For example, two people is working on the same version of a file separately and are making changes to them independent of each other. If we consider each person's work as a branch then there is two branch. This two branch can be merged together to create a single file containing the changes made by both of them. When deciding which change will be included in the final file and which one won't, git compares the two versions of the file with the original file. 
 
-Branches are represent using a diagram to make it easy for humans to understand. The diagram can show the master and the commits associated with the master. Also it will show the branch coming out of the master and the commits associated with the branch.  
+Branches are represent using a diagram to make it easy for humans to understand. The diagram can show the master and the commits associated with the master. Also it will show the branch coming out of the master and the commits associated with the branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is handy when changes are being made in two different sections (e.g. two different functions) of a file by two different person. Git can merge and include both of their changes in the final file. When deciding which change to keep and which one to not it will compare both the changes with the original version of the file. If both person made changes to the same section (e.g. same function) of a file git auto merge will give an merging error message.
+
+Manual merging is useful when changes are made to the same section (e.g. same function) of a file by two different person. Manual merge can be done to include the changes made by both person in the final file. When doing manual merging it's upto the programmer which change to keep or not, or should they discard both changes and revert back to the original file code. 
+
+
+
+
+
+
+
+
 
 
 
