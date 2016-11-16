@@ -15,3 +15,8 @@ Forks: Forks is used for copying repositories that is not owned by me. By forkin
 Clones: Clones is used for copying a remote repository to a local computer. Github allows to make live changes on simple files like text files. But for code files, it needs to be cloned into a local computer first so that changes can be made to it.
 
 Branches: Branches are used to test new features and fixing bugs without breaking the original code. It's very handy when there is multiple people working on a project. For example, if two people is working on a project then both can have their own version of the original code. They can modify their versions to make changes and then both the versions (which is called branch) can be merged together to include changes done by both persons in the master branch (original code file). When deciding which change to keep and which one to not, it can be done automatically by git, by comparing the changes to the original code and incase of a conflict it has to be done manually by the persons to decide which change to keep and which one to not or if they wish they could discard both their changes and revert back to the original code. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state of the remote helps identify if there are commits that still hasn't been pushed to the remote from local. It also shows the location of the local master and remote master and if they are ahead, behind, up-to-date or out of sync. This helps in resolving conflict during merging especially when there is multiple people collaborating on a project from multiple different computers. 
+
