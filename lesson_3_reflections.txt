@@ -20,3 +20,25 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Having a copy of the last known state of the remote helps identify if there are commits that still hasn't been pushed to the remote from local. It also shows the location of the local master and remote master and if they are ahead, behind, up-to-date or out of sync. This helps in resolving conflict during merging especially when there is multiple people collaborating on a project from multiple different computers. 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using git or github, collaboration can be done using cloud storages and sharing files and folders with team members. But in terms of programming, this will be very unclean and inconvenient. For a project where only one individual is working it might be ok conidering the project is private and doesn't need to be shared with the 
+community. But for projects where multiple people is collaborating from multile different computers, using online storage solutions to collaborate will be very hard and time-consuming. There will be lot of uploading and downloading of zipped files back and forth. Online storage solution overrides i.e. the original file get changed if same file with a same name is uploaded and it will create a revision history for that. As a result testing out experimental features which are not yer finalised can't be done without effecting the original file. 
+
+Git and github is build with code in mind and overcomes the disadvantages mentioned above. It allows users to have multiple different versions of their code without effecting the original code file, save changes as specified by users so that no changes are lost, testing experimental features and fixing bugs without effectiong original file and most importantly it allows mulpile people to collaborate on a project in a very efficient manner.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
