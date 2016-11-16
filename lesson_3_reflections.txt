@@ -27,9 +27,13 @@ community. But for projects where multiple people is collaborating from multile 
 
 Git and github is build with code in mind and overcomes the disadvantages mentioned above. It allows users to have multiple different versions of their code without effecting the original code file, save changes as specified by users so that no changes are lost, testing experimental features and fixing bugs without effectiong original file and most importantly it allows mulpile people to collaborate on a project in a very efficient manner.  
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+Branches allow to test new features and functions without effecting or modifying the original code. I will use branch for the same purpose so that my original code isn't effected by my new features which are in development stage. Once I finished developing the feature I can merge the master branch to my new feature branch to check if my new feature integrates and work properly with the master. If it does then I can merge the branch on which I developed my new feature to the master branch and then delete the new feature branch. If my feature doesn't work properly or turns out not to enhance the application being developed then I can simply delete my feature branch without integrating with the master and the original code file (master) remains unchanged. 
 
+I would only modify master directly when there are very little change or when I am implementing something that I am complety sure of and is not an experiment. Making big changes in master or testing new features directly on master is a very risky business as it might break the master (original code) and is not recommended at all.
 
+ 
 
 
 
